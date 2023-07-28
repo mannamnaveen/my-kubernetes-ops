@@ -1,5 +1,6 @@
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
+  # Update the vpc module version
   version = "5.1.1"
 
   name = var.environment_name
